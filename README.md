@@ -36,6 +36,28 @@
     - Add the recipient's WhatsApp number.
     - Use the API to send a message to the recipient.
 
+
+## Step 1: Webhook Configuration
+
+### 1.1 Accessing the Quickstart
+1. Go to the WhatsApp Business API Quickstart page.
+2. Navigate to **Configurations**.
+3. Click on **Edit**.
+
+### 1.2 Setting Environment Variables
+To use the code with Glitch, set the following environment variables:
+- `VERIFY_TOKEN`
+- `ACCESS_TOKEN`
+- `API_VERSION`
+- `BUSINESS_PHONE_NUMBER_ID`
+
+#### Example Environment Variables in Glitch
+env
+VERIFY_TOKEN=your_verify_token
+ACCESS_TOKEN=your_access_token
+API_VERSION=v11.0
+BUSINESS_PHONE_NUMBER_ID=your_business_phone_number_id
+
 ## References
 
 - **WhatsApp Business API Documentation:** [WhatsApp Business API Documentation](https://developers.facebook.com/docs/whatsapp)
