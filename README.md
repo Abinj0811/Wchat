@@ -37,7 +37,7 @@
     - Use the API to send a message to the recipient.
 
 
-## Step 1: Webhook Configuration
+## Webhook Configuration
 
 ### 1.1 Accessing the Quickstart
 1. Go to the WhatsApp Business API Quickstart page.
